@@ -1,0 +1,135 @@
+/* Be sure to add your own classes and IDs and keep track of them along with your HTML Nesting !!!!*/
+
+/* A few lesser recalled CSS props you should Google: opacity, text-transform, transition, letter spacing, gap; These will help with formatting text */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  /* bodybuilders do this on stage  */
+  flex-direction:column ;
+  /* Tetris players break these  */
+}
+
+html{
+  /* FREEBIE: uncomment this line below once you have the header img ready */
+
+  background-color: #040714;
+}
+
+/* FOR HEADER ONLY: if theres an empty comment, a CSS property is missing */
+header{
+  /* FREEBIE: uncomment the line below when you are ready to style the background image  */
+  background-image: url(images/background.jpeg);
+  background-size: cover;
+  background-position: 900%;
+  /* ^ experiment with this number */
+  display: ;
+  
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+}
+
+/* BELOW you should probably have selectors for both buttons, the section, the imgs, the p tags and the span within the p  */
+
+/* HINT  */
+
+.login/* first button: class name or id name*/{
+  width: 97px;
+  height: 36px;
+  background-color: black;
+  color: #fff;
+  font-size: 16.5px;
+  border: 0.8px solid #fff;
+  border-radius: 3px;
+  position: relative;
+  top: 2px;
+  padding:8,16px;
+  margin:5px;
+  float:right;
+}
+
+header button:hover{
+  background-color:white;
+  color:black;
+}
+
+.signup{
+  width: 97px;
+  height: 36px;
+  background-color: blue;
+  color: #fff;
+  font-size: 16.5px;
+  border: 0.8px solid #fff;
+  border-radius: 3px;
+  position: relative;
+  top: 2px;
+  padding:8,16px;
+  margin:5px;
+  float:right;
+}
+
+.mini{
+  width:90px;
+  display:flex;
+  flex-direction:column ;
+}
+
+header section {
+
+}
+
+header section p{
+
+}
+
+
+
+footer{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STOP!!! No regular CSS properties should go below! This section is for the media queries */
+
+/* FREEBIE: here are the media queries, its up to YOU to choose the appropriate selectors and NEST them within the query properly. I will give you one for each media query */
+
+@media screen and (max-width:960px){
+  header section img{
+
+  }
+}
+
+
+@media screen and (max-width:740px){
+#shows ul{
+
+}
+
+}
